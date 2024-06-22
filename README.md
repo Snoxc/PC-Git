@@ -1,7 +1,8 @@
-# HELLO PEOPLE
+```mermaid
+graph LR;
+  untracked -- "git add" --> staged;
+  staged    -- "???"     --> tracked/comitted;
 
-## My name is Alexander
-
-```My first repository```
-
-### THE END **Information**
+%% стрелка без текста для примера:
+  A --> B;
+``` 
